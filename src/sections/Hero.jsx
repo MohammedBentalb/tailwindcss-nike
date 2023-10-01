@@ -9,7 +9,6 @@ function Hero() {
   const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
   return (
     <section
-      id="home"
       className="max-container flex min-h-screen w-full 
       flex-col justify-center gap-10 xl:flex-row"
     >

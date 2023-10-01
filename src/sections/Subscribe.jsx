@@ -5,7 +5,6 @@ function Subscribe() {
     <section
       className="max-container flex items-center justify-between
      gap-10 max-lg:flex-col"
-      id="contact-us"
     >
       <h3 className="font-palanquin text-4xl font-bold leading-[68px] lg:max-w-lg">
         {'Sign up Form  '}

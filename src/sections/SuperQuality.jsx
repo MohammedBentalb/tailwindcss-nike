@@ -4,7 +4,6 @@ import Button from '../components/Button';
 function SuperQuality() {
   return (
     <section
-      id="about-us"
       className="max-container flex w-full 
       items-center justify-between gap-10 max-lg:flex-col"
     >
@@ -27,7 +26,13 @@ function SuperQuality() {
         </div>
       </div>
       <div className="flex flex-1 items-center justify-center">
-        <img src={shoe8} alt={shoe8} width={570} height={522} className='object-contain'/>
+        <img
+          src={shoe8}
+          alt={shoe8}
+          width={570}
+          height={522}
+          className="object-contain"
+        />
       </div>
     </section>
   );

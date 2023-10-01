@@ -15,13 +15,13 @@ const App = () => (
   <main className="relative">
     <Warning />
     <Nav />
-    <section className="xl:padding-l wide:padding-r padding-b ">
+    <section className="xl:padding-l wide:padding-r padding-b" id="home">
       <Hero />
     </section>
     <section className="padding" id="products">
       <PopularProducts />
     </section>
-    <section className="padding">
+    <section className="padding" id="about-us">
       <SuperQuality />
     </section>
     <section className="padding-x py-10">
@@ -33,7 +33,7 @@ const App = () => (
     <section className="padding bg-blue-50">
       <CustomerReviews />
     </section>
-    <section className="padding">
+    <section className="padding" id="contact-us">
       <Subscribe />
     </section>
     <section className="padding-x padding-t bg-black pb-8">
